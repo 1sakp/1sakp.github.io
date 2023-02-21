@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheat.css"/>
+    <script src="script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="navbar">
+        <a id="logo" href="index.html"><img class="logo" src="pic\logo.png"></a>
+        <a class="navitem" href="menu.html"><P class="menutext">menu</P><img class="navimg" src="pic\menu.png"></a>
+        <a class="navitem" href="order.html"><P class="menutext">order</P><img class="navimg" src="pic\order.png"></a>
+        <a class="navitem" href="contact.html"><P class="menutext">contact</P><img class="navimg" src="pic\person.png"></a>
+        <a class="navitem" href="login.html">Sign in</a>
+    </div>
+    <div class="bodypage">
+        <div class="textbox">
+            <div class="textnobox">
+                <form>
+                    Username:<br>
+                    <input type="text" name="username" placeholder="Username" required><br><br>
+                    Password:<br>
+                    <input type="password" name="password" placeholder="Password" required><br><br>
+                    <input type="submit" onclick="login()">
+                </form>
+                <h1 id="login"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

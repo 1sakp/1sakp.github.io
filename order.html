@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheat.css"/>
+    <script src="script.js"></script>
+    <title>Order</title>
+</head>
+<body>
+    <div id="navbar">
+        <a id="logo" href="index.html"><img class="logo" src="pic\logo.png"></a>
+        <a class="navitem" href="menu.html"><P class="menutext">menu</P><img class="navimg" src="pic\menu.png"></a>
+        <a class="navitem" href="order.html"><P class="menutext">order</P><img class="navimg" src="pic\order.png"></a>
+        <a class="navitem" href="contact.html"><P class="menutext">contact</P><img class="navimg" src="pic\person.png"></a>
+        <a class="navitem" href="login.html">Sign in</a>
+    </div>
+    <div class="bodypage">
+        <div class="textbox">
+            <div class="textnobox">
+                <h1> Du har beställt</h1>:</h1>
+                <h2 id="costorder">Totala Kostnaden: </h2>
+                <button onclick="clear()">clear</button>
+                <button onclick="cost()">Uppdatera</button>
+                <button onclick="buy()">Köp</button>
+                <h1 id="bought"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

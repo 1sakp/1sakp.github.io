@@ -1,0 +1,162 @@
+.navimg{
+height: 50px;
+width: 50px;
+}
+
+.logoimg{
+    width: 100px;
+    height: 100px;
+}
+
+#navbar{
+display: flex;
+width: 99vw;
+flex-wrap: wrap;
+justify-content: space-around;
+background-color: brown;
+border-radius: 40px;
+flex-direction: row;
+align-items: center;
+margin: 10px;
+}
+
+.smolitemcontainer{
+width: 20vw;
+height: 400px;
+background-color: burlywood;
+border-radius: 40px;
+border-style:inset;
+border-width: 10px;
+margin: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.smolimg{
+width: 20vw;
+height: 300px;
+border-radius: 30px;
+border-style: hidden;
+object-fit: cover;
+}
+
+.logo{
+height: 80px;
+}
+
+.textbox{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 47vw;
+align-items: center;
+height: 78vh;
+margin: 5px;
+border: 10px double black;
+border-radius: 30px;
+border-color: black;
+background-color:darkgrey;
+}
+
+.textnobox{
+display: flex;
+flex-direction: column;
+width: 47vw;
+align-items: center;
+height: 78vh;
+margin: 20px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#textboxwrap{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#halfimg{
+height: 80vh;
+width: 900px;
+object-fit: cover;
+margin: 5px;
+border-radius: 20px;
+border-style: hidden;
+}
+
+.bodypage{
+display: flex;
+flex-direction: row;
+width: 100%;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.navitem{
+border-radius: 20px;
+border-color: black;
+border-style: dashed;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 40px;
+padding-right: 40px;
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: inherit;
+color: black;
+background-color: chocolate;
+border-color: chocolate;
+margin: 10px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+body{
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: gray;
+margin: auto;
+}
+
+body::-webkit-scrollbar{
+display: none;
+}
+
+
+.p-home{
+font-size: larger;
+}
+
+#popup {
+background-color: green;
+padding: 20px;
+width: fit-content;
+position: fixed;
+top: 30px;
+right: 30px;
+border-radius: 30px;
+}
+
+@keyframes out {
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+#popup.fade{
+-webkit-animation: out 1s;
+}
+
+.menutext{
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
